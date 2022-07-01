@@ -11,6 +11,8 @@
 		F365BEB7286F0DB7006AF898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEB6286F0DB7006AF898 /* ContentView.swift */; };
 		F365BEB9286F0DB7006AF898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F365BEB8286F0DB7006AF898 /* Assets.xcassets */; };
 		F365BEBC286F0DB7006AF898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F365BEBB286F0DB7006AF898 /* Preview Assets.xcassets */; };
+		F365BEC3286F0E56006AF898 /* CircleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEC2286F0E56006AF898 /* CircleLight.swift */; };
+		F365BEC5286F108D006AF898 /* StartNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEC4286F108D006AF898 /* StartNextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F365BEB6286F0DB7006AF898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F365BEB8286F0DB7006AF898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F365BEBB286F0DB7006AF898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F365BEC2286F0E56006AF898 /* CircleLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLight.swift; sourceTree = "<group>"; };
+		F365BEC4286F108D006AF898 /* StartNextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				F365BEB4286F0DB7006AF898 /* TrafficLightSwiftUIApp.swift */,
 				F365BEB6286F0DB7006AF898 /* ContentView.swift */,
+				F365BEC4286F108D006AF898 /* StartNextButton.swift */,
+				F365BEC2286F0E56006AF898 /* CircleLight.swift */,
 				F365BEB8286F0DB7006AF898 /* Assets.xcassets */,
 				F365BEBA286F0DB7006AF898 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F365BEB7286F0DB7006AF898 /* ContentView.swift in Sources */,
+				F365BEC5286F108D006AF898 /* StartNextButton.swift in Sources */,
 				F365BEB5286F0DB7006AF898 /* TrafficLightSwiftUIApp.swift in Sources */,
+				F365BEC3286F0E56006AF898 /* CircleLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
